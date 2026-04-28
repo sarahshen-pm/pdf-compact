@@ -11,7 +11,7 @@ export default function PdfUploader({ mode }: { mode: string }) {
 
     const result = await processPdf(file, mode);
 
-    const blob = new Blob([result], { type: "application/pdf" });
+    const blob = new Blob([result as any], { type: "application/pdf" });
     const url = URL.createObjectURL(blob);
 
     const a = document.createElement("a");
