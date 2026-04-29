@@ -29,7 +29,7 @@ export default function LandingClient({ initialMode, title, subtitle, seoHeading
           <div className="flex flex-col items-center justify-center mb-6">
             <Image
               src="/logo2.png"
-              alt="PrintPDF Logo"
+              alt="PDF-Compact Logo"
               width={360}
               height={68}
               className="object-contain drop-shadow-sm"

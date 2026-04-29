@@ -77,7 +77,7 @@ export default function PdfUploader({ mode: initialMode, onClose }: { mode: stri
     if (!previewUrl || !file) return;
     const a = document.createElement("a");
     a.href = previewUrl;
-    a.download = `PrintPDF-${currentMode}-${orientation}-${file.name}`;
+    a.download = `PDF-Compact-${currentMode}-${orientation}-${file.name}`;
     a.click();
   };
 
@@ -97,7 +97,7 @@ export default function PdfUploader({ mode: initialMode, onClose }: { mode: stri
       {/* Header: 1 Row */}
       <div className="h-16 border-b border-slate-200 bg-white flex items-center justify-between px-6 shrink-0 shadow-sm">
         <div className="flex items-center">
-          <Image src="/logo2.png" alt="PrintPDF Logo" width={240} height={46} className="object-contain drop-shadow-sm" priority />
+          <Image src="/logo2.png" alt="PDF-Compact Logo" width={240} height={46} className="object-contain drop-shadow-sm" priority />
         </div>
         <div className="flex items-center gap-3">
           <button 

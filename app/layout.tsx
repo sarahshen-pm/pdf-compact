@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "PrintPDF - The fastest way to compress and combine your PDF pages",
+  title: "PDF-Compact - The fastest way to compress and combine your PDF pages",
   description: "Reduce PDF pages. Print 9 pages per sheet with minimal spacing.",
   icons: {
     icon: "/logo.png",
